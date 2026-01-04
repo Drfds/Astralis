@@ -1,8 +1,8 @@
 <template>
-  <footer class="border-t border-white mt-30 py-6 md:mt-50">
+  <footer class="fixed border-t border-white bottom-0 w-full py-6">
     <div class="container mx-auto flex flex-col md:flex-row md:justify-between">
-      <div class="flex flex-row gap-5 mx-auto">
-        <p class="text-center text-white">&copy; 2024 Astralis. All rights reserved.</p>
+      <div class="flex flex-row gap-5 mx-auto md:mx-0">
+        <p class="text-center text-white text-[20px]">&copy; 2024 Astralis. All rights reserved.</p>
       </div>
       <div class="flex flex-row gap-8 justify-center">
         <div>
