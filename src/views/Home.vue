@@ -5,7 +5,7 @@ import { ref, onMounted } from 'vue'
 
 const router = useRouter()
 const clientId = '1259472762850775042'
-const redirectUri = 'http://ayacloud.ddns.net:5173/discord-callback' // ปรับเป็นของคุณถ้าจำเป็น
+const redirectUri = 'https://astralis-delta.vercel.app/discord-callback' // ปรับเป็นของคุณถ้าจำเป็น
 const scope = 'identify email guilds'
 
 function handleGetStart() {

@@ -14,7 +14,7 @@ onMounted(async () => {
       client_secret: 'QclEUDASNqcBLz18fF44jvo4geP5ldt2',   // This should be real in production
       grant_type: 'authorization_code',
       code,
-      redirect_uri: 'http://ayacloud.ddns.net:5173/discord-callback'
+      redirect_uri: 'https://astralis-delta.vercel.app/discord-callback'
     });
     const tokenRes = await fetch('https://discord.com/api/oauth2/token', {
       method: 'POST',
